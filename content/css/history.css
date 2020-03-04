@@ -1,0 +1,163 @@
+/* roboto importing */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+/* animation */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+/* header */
+#moni h1{   
+    color: red;
+    font-size: 36px;
+    border: 1px solid green;
+    border-width: 1px 5px 2px 3px ;
+   padding:   1px 5px 2px 3px ;
+   display: inline-block;
+}
+#moni h3{  
+    color: red;
+    font-size: 24px;
+    border: 1px solid green;
+    border-width:4px 2px 4px 2px ;
+    padding: 4px 2px 4px 2px ;
+    display: inline-block;    
+}
+/* end of header */
+/* roopasri's header */
+#roop h1,h3{
+    border: 2px solid blue;
+    color: blue;
+}
+#roop h2{
+    border-bottom: 2px solid blue;
+}/* 
+end of header */
+/* table css */
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    background-color: white;
+}
+/* form inside box css */
+.inside_box{           
+    padding: 15px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width:100%;
+}
+/* form outside box css */
+.outside_box{
+    border: 1px solid black;
+    padding: 30px;
+    width: 40%;
+    margin: auto;
+    height: fit-content;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    float: right;
+}
+/* div tag css */
+div{
+    border: 1px solid black;
+    display: inline-block;
+}
+/* table css */
+.mytable{
+    padding: 30px;
+    width: 50%;
+   float: left;
+}
+/* third section css */
+#moni_table{
+    background-image: linear-gradient(30deg,peachpuff,salmon,rosybrown);   
+}
+/* image css */
+img{
+    display: block;
+    margin: 0 auto;
+}
+/* header css */
+header{
+    text-align: center;
+}
+/* section 1 div1 css */
+@media (min-width: 576px) {
+    .div1{
+            background-image: url('content/image/loginimg.jpg');
+    }
+}
+@media (max-width: 1199px) {
+    .div1{
+            background-color: teal;
+    }
+}
+.div1{
+    width: 98vw;
+    /* background-image: url('content/image/loginimg.jpg'); */
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+/* section 2 div2 css */
+.div2{
+    animation: mymove 5s infinite;
+    background-image: url('../image/golden-bokeh_1339-569.jpg');
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    bottom: 25%;
+    right: 25%;
+    top: 0;
+    left: 0;
+}
+/* section 2 div3 css */
+.div3{
+    background-image: url('../image/golden-bokeh_1339-569.jpg');
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    bottom: 45%;
+    right: 45%;
+    top: 25%;
+    left: 11%;
+    border-radius: 46%;
+}
+/* section 2 div4 css */
+.div4{
+    background-image: url('../image/golden-bokeh_1339-569.jpg');
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    bottom: 65%;
+    right: 65%;
+    top: 48%;
+    left: 22%;
+    box-shadow: 10px 10px 8px 8px darkmagenta;
+}
+/* section 2 div5 css */
+.div5{
+    background-color: rgba(243, 13, 13, 0.87);
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    bottom: 85%;
+    right: 85%;
+    top: 75%;
+    left: 35%;
+}
+/* pseudo styling in p tag */
+p::first-letter {
+    font-variant: small-caps;
+    font-style: italic;
+}
+/* hovering h3 with bgcolor */
+h3:hover{
+    background-color: grey;
+}

@@ -1,0 +1,72 @@
+.center{
+    text-align: center;
+    text-shadow: antiquewhite;
+}
+
+body{
+    background-image: linear-gradient(40deg,peachpuff,salmon,rosybrown);
+    
+}
+
+.centerdiv{
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    background-color: papayawhip;
+    border: 3px solid black;
+    width: 70%;
+    margin: auto;
+    
+}
+.border{
+    margin: auto;
+}
+
+
+table,tr,td,th,tbody,thead{
+text-align: center;
+padding: 5px;
+border: 1px solid black;
+border-collapse: collapse;
+background-color: white;
+}
+.left{
+    padding: 10px;
+    display: inline-block;
+    float: left;
+    width:auto;
+
+}
+.right{
+    padding: 10px;
+    display: inline-block;
+    float: right;
+    
+}
+
+.align{
+    margin-left: 35px;
+    border: none;
+    
+    padding: 10px;
+    width: 40%;
+}
+
+.size{
+    width: fit-content;
+    height: fit-content;
+    padding: inherit;
+    border: white;
+}
+
+.textarea{
+    resize: none;
+    padding: inherit;
+    border: white;
+}
+
+button{
+    padding: 15px;
+    width: 10%;
+    
+}

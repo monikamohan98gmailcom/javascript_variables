@@ -1,0 +1,74 @@
+.one{
+    width: 98vw;
+    background-color: grey;
+    /* background-image: url('content/image/loginimg.jpg'); */
+    background-size: cover;
+    position: relative;
+    height: 105vh;
+    line-height: 1050px; 
+    text-align:center;
+}
+
+p{
+    text-align: center;
+}
+div{
+    background-image: url('../image/golden-bokeh_1339-569.jpg');
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    text-align: center;
+    font-size: large;
+    line-height: 80px; 
+}
+
+div:nth-child(1){
+    bottom: 25%;
+    right: 25%;
+    top: 5%;
+    left: 3%;
+}
+div:nth-child(2){
+    bottom: 45%;
+    right: 45%;
+    top: 25%;
+    left: 13%;
+}
+div:nth-child(3){
+    bottom: 65%;
+    right: 65%;
+    top: 45%;
+    left: 23%;
+}
+
+div:nth-child(4){
+    bottom: 85%;
+    right: 85%;
+    top: 65%;
+    left: 33%;
+}
+div:nth-child(5){
+    bottom: 85%;
+    right: 85%;
+    top: 65%;
+    left: 53%;
+}
+
+div:nth-child(6){
+    bottom: 65%;
+    right: 50%;
+    top: 45%;
+    left: 64%;
+}
+div:nth-child(7){
+    bottom: 45%;
+    right: 45%;
+    top: 25%;
+    left: 75%;
+}
+div:nth-last-child(1){
+    bottom: 25%;
+    right: 0;
+    top: 5%;
+   left: 85%;
+}

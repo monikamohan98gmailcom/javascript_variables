@@ -1,0 +1,164 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+        <link href="../monika_90042/content/css/index.css" rel="stylesheet">
+    </head>
+    <body>
+       <script src="./content/js/index.js" defer></script>
+            <h1 class="center"><u>PARTICIPANT  FEEDBACK</u></h1>
+    <div class="centerdiv">
+                <div  class="left">
+                Faculty Name:<input id="fname" class="align" type="text" name="facultyname" placeholder="Faculty Name" required>
+                <br><br>
+                Participant Name:<input  id="pname" class="align" type="text" name="participantname" style="margin-left:8px;" placeholder="Participant Name" required>
+                
+            </div>
+            <div class="right">
+                Training Program:<input class="align" id="program" type="text" name="trainingprogram" placeholder="training program" required>
+                <br><br>
+                Employee-Id:<input class="align" id="emp-id" type="text" name="emp-id" placeholder="Employee-Id" style="margin-left:76px;" required>
+
+            </div>
+            
+    <div style="padding: 30px;">
+            <table class="border">
+                    <thead>
+                            <tr>
+                                <th>NAME</th>
+                                <th>SCORE</th>
+                                <th>COMMENTS</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr >
+                                <th  style="background-color:lightgray">About Training Program:</th>
+                                <th  style="background-color:lightgray"></th>
+                                <th  style="background-color:lightgray"></th>
+                            </tr>
+                            <tr>
+
+                                <td style="font-weight: normal;">The intended program of the workshop was met</td>
+                                <td> <select name="Score" class="size" style="width: fit-content;">
+                                    <option value="none">-select-</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    </select>
+                                </td>
+                                <td><textarea name="comments" class="textarea" cols="40"></textarea></td>
+                            </tr>
+                             <tr>
+                                <td style="font-weight: normal;">My understanding of the concepts were clear</td>
+                                <td> <select name="Score" class="size" style="width: fit-content;">
+                                    <option value="none">-select-</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    </select>
+                                </td>
+                                <td><textarea name="comments" class="textarea" cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                    <th style="background-color:lightgray">About Training:</th>
+                                    <th style="background-color:lightgray"></th>
+                                    <th style="background-color:lightgray"></th>
+                            </tr>
+    
+                            <tr>
+                                    <td style="font-weight: normal;">There was clarity in the content</td>
+                                    <td> <select name="Score" class="size">
+                                        <option value="none">-select-</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                    </td>
+                                    <td><textarea name="comments" class="textarea" style="resize: none" cols="40"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: normal">The content was appropriately presented</td>
+                                    <td> <select name="Score" class="size" style="width: fit-content;">
+                                        <option value="none">-select-</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                    </td>
+                                    <td><textarea name="comments" class="textarea" cols="40"></textarea></td>
+                                </tr>
+                                <tr>
+                                        <th style="background-color:lightgray">Admin section:</th>
+                                        <th style="background-color:lightgray"></th>
+                                        <th style="background-color:lightgray"></th>
+                                    </tr>
+        
+                                <tr>
+                                        <td style="font-weight: normal;">Venue/Conf room</td>
+                                        <td> <select name="Score" class="size">
+                                            <option value="none">-select-</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            </select>
+                                        </td>
+                                        <td><textarea name="comments" class="textarea" style="resize: none" cols="40"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: normal">Requested stationary arrangements</td>
+                                        <td> <select name="Score" class="size" style="width: fit-content;">
+                                            <option value="none">-select-</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            </select>
+                                        </td>
+                                        <td><textarea name="comments" class="textarea" cols="40"></textarea></td>
+                                    </tr>
+                        </tbody>
+            </table>
+        </div>
+    
+            <br>
+            <span style="margin: 10px;">Participant Rating:</span>
+            <input type="radio" name="rating" value="1">Poor
+            <input type="radio" name="rating" value="2">Average
+            <input type="radio" name="rating" value="3">Good
+            <input type="radio" name="rating" value="4">Very good
+            <input type="radio" name="rating" value="5">Excellent
+            <br><br>
+            <span style="margin: 10px;">Topics you liked:</span><br>
+            <textarea name="liked" style="resize: none ;display: block;    width: -webkit-fill-available;"></textarea><br><br>
+            <span style="margin: 10px;">Topics that can be included:</span><br>
+            <textarea name="liked" style="resize: none;    width: -webkit-fill-available;"></textarea><br><br>
+           <center><button id="getTable" type="button">Submit</button></center> 
+            <br>
+            <table id="mytable" style="font-weight: bold;visibility: hidden;" class="border">
+                    <thead>
+                        <tr>
+                            <th>Faculty name</th>
+                            <th>Training Program</th>
+                            <th>Participant name</th>
+                            <th>Employee-Id</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+            </table>
+            </div>
+        </div>
+    </body>
+</html>
